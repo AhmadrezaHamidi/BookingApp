@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{FE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageBus", "MessageBus\MessageBus.csproj", "{B0EA8C3F-404C-4702-B4A7-5DF8FEF99CBB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingApp.Core", "BookingApp.Core\BookingApp.Core.csproj", "{9BA56A04-EEFB-4192-A638-3598C1204BB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,12 +21,17 @@ Global
 		{B0EA8C3F-404C-4702-B4A7-5DF8FEF99CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0EA8C3F-404C-4702-B4A7-5DF8FEF99CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0EA8C3F-404C-4702-B4A7-5DF8FEF99CBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BA56A04-EEFB-4192-A638-3598C1204BB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA56A04-EEFB-4192-A638-3598C1204BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA56A04-EEFB-4192-A638-3598C1204BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA56A04-EEFB-4192-A638-3598C1204BB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B0EA8C3F-404C-4702-B4A7-5DF8FEF99CBB} = {4DB1FF5F-0DCC-4A0C-9C40-E35BCD1B23DE}
+		{9BA56A04-EEFB-4192-A638-3598C1204BB2} = {4DB1FF5F-0DCC-4A0C-9C40-E35BCD1B23DE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A70B8059-EAA4-43A4-8148-7D4DAFB9AAB2}
